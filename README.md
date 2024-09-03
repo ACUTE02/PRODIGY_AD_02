@@ -7,6 +7,14 @@ The app algorithm is based on a simple finite state machine that processes user 
 - **User Input:** The user enters a task or selects a task to edit or delete using the GUI.
 - **Task List Update:** The app updates the task list based on the user input, adding, editing, or deleting tasks as necessary.
 - **Task List Display:** The app displays the updated task list to the user.
+# App Components
+The app consists of the following components:
+- **GUI:** The graphical user interface is implemented using Tkinter and provides a simple and intuitive way for users to interact with the app.
+- **Task List:** The task list is implemented using a Listbox widget and stores the tasks entered by the user.
+- **Task Entry:** The task entry field is implemented using an Entry widget and allows users to enter new tasks or edit existing tasks.
+- **Add Task Button:** The add task button is implemented using a Button widget and adds new tasks to the task list when clicked.
+- **Edit Task Button:** The edit task button is implemented using a Button widget and edits existing tasks in the task list when clicked.
+- **Delete Task Button:** The delete task button is implemented using a Button widget and deletes tasks from the task list when clicked.
 # Features:
 - Task List: The app displays a list of tasks that the user can add, edit, and delete.
 - Task Entry: The app allows users to enter new tasks or edit existing tasks using a text entry field.
